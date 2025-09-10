@@ -35,7 +35,7 @@ DEBUG = True
 ALLOWED_HOSTS = ["localhost", "127.0.0.1", "julius-albert-footballnews.pbp.cs.ui.ac.id"]
 
 CSRF_TRUSTED_ORIGINS = [
-    "http://julius-albert-footballnews.pbp.cs.ui.ac.id"
+    "https://julius-albert-footballnews.pbp.cs.ui.ac.id"
 ]
 
 # Application definition
