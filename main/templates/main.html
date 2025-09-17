@@ -12,6 +12,17 @@
 <a href="{% url 'main:create_news' %}">
   <button>+ Add News</button>
 </a>
+<a href="{% url 'main:logout' %}">
+  <button>Logout</button>
+</a>
+<h5>Last login session: {{ last_login }}</h5>
+
+<a href="?filter=all">
+    <button type="button">All Articles</button>
+</a>
+<a href="?filter=my">
+    <button type="button">My Articles</button>
+</a> 
 
 <hr>
 
